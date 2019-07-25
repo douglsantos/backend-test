@@ -1,0 +1,17 @@
+Conceitos aplicados:
+
+- Clean e Screaming Architecture
+
+Durante a construção do case vi sentido que os metodos ficassem em uma única classe, pois entendo que pertence ao mesmo contexto de movimentação do cliente. É possível chegar ao um nível maior de granularidade.
+
+O Clean fornece um ganho enorme em manutenção e testabilidade da aplicação, pois pode-se trocar entrypoints e data providers e, manter o core (use case) com as regras de negócio totalmente intactas.
+
+Ao aplicar o Screaming Architecture ganhamos em legibidade, pois a classes e os metódos "gritam", ficando fácil a leitura e se achar durante a manutenção da aplicação.
+
+- Pirâmide de teste(unit, integration e acceptance tests);
+
+- Requisitos básicos
+  - Maven
+  - Java 8
+
+
